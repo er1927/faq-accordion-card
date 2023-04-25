@@ -1,7 +1,7 @@
 
-/* *{
+*{
   outline: solid 2px orange;
-} */
+}
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -49,7 +49,7 @@ body {
   border-bottom: 2px solid hsl(240, 5%, 91%);
 }
 
-.question-item:hover {
+.question:hover {
   color: hsl(14, 88%, 65%);
   font-weight: bold;
 }
