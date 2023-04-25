@@ -46,12 +46,16 @@
       padding-top: 70px;;
     }
 
-    .questions {
+    .questions {    
+      font-size: 12px;
+    }
+
+    .question-item {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      font-size: 12px;
+      border-bottom: 2px solid hsl(240, 5%, 91%);
     }
 
     .fa-angle-down {
@@ -77,23 +81,29 @@
         <h3>FAQ</h3>
       </div>
       <div class="questions">
+      <div class="question-item">
         <p>How many team members can I invite?</p> <i class="fa-solid fa-angle-down"></i>
-      <!-- You can invite up to 2 additional users on the Free plan. There is no limit on 
-      team members for the Premium plan. -->
-  
-      <p>What is the maximum file upload size?</p><i class="fa-solid fa-angle-down"></i>
+        <!-- You can invite up to 2 additional users on the Free plan. There is no limit on 
+        team members for the Premium plan. -->
+      </div>
+      <div class="question-item">
+        <p>What is the maximum file upload size?</p><i class="fa-solid fa-angle-down"></i>
       <!-- No more than 2GB. All files in your account must fit your allotted storage space. -->
-  
-      <p>How do I reset my password?</p><i class="fa-solid fa-angle-down"></i>
-      <!-- Click “Forgot password” from the login page or “Change password” from your profile page.
-      A reset link will be emailed to you. -->
-  
-      <p>Can I cancel my subscription?</p><i class="fa-solid fa-angle-down"></i>
+      </div>
+      <div class="question-item">
+        <p>How do I reset my password?</p><i class="fa-solid fa-angle-down"></i>
+        <!-- Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you. -->
+      </div>
+      <div class="question-item">
+        <p>Can I cancel my subscription?</p><i class="fa-solid fa-angle-down"></i>
       <!-- Yes! Send us a message and we’ll process your request no questions asked. -->
-  
+      </div>
+     <div class="question-item">
       <p>Do you provide additional support?</p><i class="fa-solid fa-angle-down"></i>
       <!-- Chat and email support is available 24/7. Phone lines are open during normal business hours. -->
-      </div>
+     </div>
+    </div>
     </div>
   </div>
   <div class="attribution">
