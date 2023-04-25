@@ -49,6 +49,11 @@ body {
   border-bottom: 2px solid hsl(240, 5%, 91%);
 }
 
+.question-item:hover {
+  color: hsl(14, 88%, 65%);
+  font-weight: bold;
+}
+
 .fa-angle-down {
   color:hsl(14, 88%, 65%);
 }
