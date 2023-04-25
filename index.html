@@ -9,6 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <style>
+    /* *{
+      outline: solid 2px orange;
+    } */
+
     body {
       background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
       font-family: 'Kumbh Sans', sans-serif;
@@ -22,7 +26,7 @@
     .image-mobile-element {
       position: relative;
       bottom: -70px;
-      right: -60px;
+      right: -70px;
       width: 200px;
     }
 
@@ -30,7 +34,7 @@
       background-color: white;
       display: flex;
       flex-direction: column;
-      width: fit-content;
+      width: 300px;
       padding: 20px;
       border-radius: 10px;
       font-size: 400;
@@ -42,6 +46,17 @@
       padding-top: 70px;;
     }
 
+    .questions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .fa-angle-down {
+      color:hsl(14, 88%, 65%);
+    }
     .attribution { 
       font-size: 11px; text-align: center; 
       padding-top: 40px;
