@@ -9,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <style>
-    /* *{
+    *{
       outline: solid 2px orange;
-    } */
+    }
 
     body {
       background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -69,6 +69,32 @@
     .attribution a { 
       color: hsl(229, 49%, 87%); 
     }
+
+    @media only screen and (min-width:1440px) {
+    
+      .image-mobile-element {
+        left: -85px;
+        bottom: -300px;
+        width: 300px;
+      }
+
+      .card {
+        width:600px;
+        padding: 40px;
+      }
+
+      .card h3 {
+        padding-top: 0;
+      }
+
+      .questions {
+        width:400px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+      }
+  }
+
   </style>
 </head>
 <body>
