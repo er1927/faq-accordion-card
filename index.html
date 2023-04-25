@@ -15,40 +15,55 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items:center;
     }
 
     .card {
       background-color: white;
       display: flex;
       flex-direction: column;
-      width: 300px;
-      border-radius: 10px;;
+      width: fit-content;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 400;
     }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .card h3 {
+      text-align: center;
+    }
+
+    .attribution { 
+      font-size: 11px; text-align: center; 
+      padding-top: 40px;
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="title">
-      <h1>FAQ</h1>
+      <h3>FAQ</h3>
     </div>
     <div class="questions">
-      <h3>How many team members can I invite?</h3>
+      <p>How many team members can I invite?</p>
     <!-- You can invite up to 2 additional users on the Free plan. There is no limit on 
     team members for the Premium plan. -->
 
-    <h3>What is the maximum file upload size?</h3>
+    <p>What is the maximum file upload size?</p>
     <!-- No more than 2GB. All files in your account must fit your allotted storage space. -->
 
-    <h3>How do I reset my password?</h3>
+    <p>How do I reset my password?</p>
     <!-- Click “Forgot password” from the login page or “Change password” from your profile page.
     A reset link will be emailed to you. -->
 
-    <h3>Can I cancel my subscription?</h3>
+    <p>Can I cancel my subscription?</p>
     <!-- Yes! Send us a message and we’ll process your request no questions asked. -->
 
-    <h3>Do you provide additional support?</h3>
+    <p>Do you provide additional support?</p>
     <!-- Chat and email support is available 24/7. Phone lines are open during normal business hours. -->
     </div>
   </div>
