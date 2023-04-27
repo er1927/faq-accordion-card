@@ -1,6 +1,6 @@
-*{
+/* *{
   outline: solid 2px orange;
-}
+} */
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -27,7 +27,7 @@ body {
   width: 300px;
   padding: 20px;
   border-radius: 10px;
-  font-size: 400;
+  font-size: 12px;
   box-shadow: 5px 10px 20px black;
 }
 
@@ -36,16 +36,9 @@ body {
   padding-top: 70px;;
 }
 
-/* .questions {    
-  font-size: 12px;
-} */
-
 .question-item {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-   
-  /*align-items: center; */
   padding-right: 0;
   border-bottom: 2px solid hsl(240, 5%, 91%);
 }
