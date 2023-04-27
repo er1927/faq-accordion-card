@@ -1,7 +1,6 @@
-
-*{
+/* *{
   outline: solid 2px orange;
-}
+} */
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -43,20 +42,25 @@ body {
 
 .question-item {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
+  padding-right: 0;
   border-bottom: 2px solid hsl(240, 5%, 91%);
 }
+
+
 
 .question:hover {
   color: hsl(14, 88%, 65%);
   font-weight: bold;
 }
 
-.fa-angle-down {
+i {
   color:hsl(14, 88%, 65%);
+  margin: auto 0 auto 25px;
 }
+
 .attribution { 
   font-size: 11px; text-align: center; 
   padding-top: 40px;
