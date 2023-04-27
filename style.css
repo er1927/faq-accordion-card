@@ -128,11 +128,15 @@ i {
   }
 
   .accordion {
-    width: 350px;
+    width: 400px;
   }
 
   #desktop-image {
     display: block;
+    position: relative;
+    right: 100px;
+    width: 350px;
+    filter: drop-shadow(-4px 30px 2px hsl(240, 5%, 91%));
   } 
 }
 
