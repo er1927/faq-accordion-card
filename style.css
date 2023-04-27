@@ -68,6 +68,15 @@ body {
   transition: 0.5s;
 }
 
+.accordion .question-item.active .answer {
+  height: 150px;
+}
+
+.accordion .question-item.active .question::before {
+  content: 'ᐱ';
+  font-size: 12px;
+}
+
 .question-item {
   display: flex;
   flex-direction: column;
