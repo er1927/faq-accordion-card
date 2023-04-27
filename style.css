@@ -61,20 +61,19 @@ body {
   position: relative;
   background: white;
   height: 0;
-  font-size: 20px;
   text-align: justify;
-  width: 780px;
   overflow: hidden;
   transition: 0.5s;
 }
 
 .accordion .question-item.active .answer {
-  height: 150px;
+  height: fit-content;
 }
 
 .accordion .question-item.active .question::before {
   content: 'ᐱ';
   font-size: 12px;
+  /* font-weight: bold; */
 }
 
 .question-item {
