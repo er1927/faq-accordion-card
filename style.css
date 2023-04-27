@@ -36,12 +36,13 @@ body {
   padding-top: 70px;;
 }
 
-.questions {    
+/* .questions {    
   font-size: 12px;
-}
+} */
 
 .question-item {
   display: flex;
+  flex-direction: column;
   /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
@@ -49,7 +50,11 @@ body {
   border-bottom: 2px solid hsl(240, 5%, 91%);
 }
 
-
+.question {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+}
 
 .question:hover {
   color: hsl(14, 88%, 65%);
