@@ -36,6 +36,38 @@ body {
   padding-top: 70px;;
 }
 
+.accordion .question-item {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.accordion .question {
+  position: relative;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.accordion .question::before {
+  content: '˅';
+  color:hsl(14, 88%, 65%);
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .answer {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
 .question-item {
   display: flex;
   flex-direction: column;
