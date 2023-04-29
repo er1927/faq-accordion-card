@@ -1,6 +1,6 @@
-*{
+/* *{
   outline: solid 2px orange;
-}
+} */
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -152,7 +152,6 @@ i {
     margin:0px;
     padding:0px;
     height: 360px;
-  
   }
  
 

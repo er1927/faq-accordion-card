@@ -8,7 +8,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [My process](#my-process)00000
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/er1927/faq-accordion-card)
+- [Live Site](https://faq-accordion-card-mu-jet.vercel.app/)
 
 ## My process
 
