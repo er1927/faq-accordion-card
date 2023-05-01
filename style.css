@@ -20,6 +20,10 @@ body {
   filter: drop-shadow(-4px 30px 2px hsl(240, 5%, 91%));
 }
 
+#box {
+  display: none;
+}
+
 #desktop-image {
   display: none;
 }
@@ -157,6 +161,4 @@ i {
     padding:0px;
     height: 360px;
   }
- 
-
 }
