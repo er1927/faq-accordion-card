@@ -11,6 +11,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)00000
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgements](#acknoledgements)
 
 
 ## Overview
@@ -49,3 +50,6 @@ Users should be able to:
 - Frontend Mentor - [@er1927 ](https://www.frontendmentor.io/profile/er1927)
 - Github - [@er1927](https://github.com/er1927)
 
+##Acknowledgements
+
+- Many thanks to [Abdul Khalid](https://www.linkedin.com/in/0xabdulkhalid/) for checking my code and making the most helpful suggestions regarding the HTML structure of the accordion element.
