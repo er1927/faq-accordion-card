@@ -60,7 +60,7 @@ body {
   transform: translateY(-50%);
 }
 
-.accordion .answer {
+/* .accordion .answer {
   position: relative;
   background: white;
   height: 0;
@@ -71,7 +71,7 @@ body {
 
 .accordion .question-item.active .answer {
   height: fit-content;
-}
+} */
 
 .accordion .question-item.active .question::before {
   content: 'ᐱ';
