@@ -1,6 +1,6 @@
-/* *{
+*{
   outline: solid 2px orange;
-} */
+}
 
 body {
   background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
@@ -59,6 +59,10 @@ body {
   right: -5px;
   transform: translateY(-50%);
 }
+
+/* Leaving this bit of css here, 
+now useless, but necessary without 
+the details/summary HTML structure */
 
 /* .accordion .answer {
   position: relative;
